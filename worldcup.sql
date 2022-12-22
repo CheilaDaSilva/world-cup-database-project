@@ -1,3 +1,4 @@
+-- database dump (after insert_data.sh has been run; i.e. values inserted)
 --
 -- PostgreSQL database dump
 --
