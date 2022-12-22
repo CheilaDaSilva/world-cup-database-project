@@ -1,13 +1,13 @@
 #! /bin/bash
 
+# using if loop to be able to run tests without affecting original database
+
 if [[ $1 == "test" ]]
 then
   PSQL="psql --username=postgres --dbname=worldcuptest -t --no-align -c"
 else
   PSQL="psql --username=freecodecamp --dbname=worldcup -t --no-align -c"
 fi
-
-# Do not change code above this line. Use the PSQL variable above to query your database.
 
 #start by emptying the rows in the tables of the database so we can rerun the file
 echo $($PSQL "TRUNCATE TABLE games, teams")
