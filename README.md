@@ -12,12 +12,12 @@ Created the database, 'worldcup', and the appropriate tables ('teams' and 'games
 Added appropriate constraints (primary keys and foreign keys) required to relate the tables.
 
 Tables
-_____________________________________________________________________________________________________________________
-|games| tracks all matches and shows scores made by winner and oponnent teams (using team_id as identifier for both).|
-|teams| lists all teams that played, whether they were the winner team or the opponent team.|
-----------------------------------------------------------------------------------------------------------------------
+'games' tracks all matches and scores made by both the winner team and the opponent team (using team_id as the identifier).
+'teams' lists all teams that played in the matches.
+|teams lists all teams that played, whether they were the winner team or the opponent team.
 
-View: add link
+View: <a href="https://github.com/CheilaDaSilva/world-cup-database-project/blob/main/initial%20tables%20creation.sql"> initial_tables_creation.sql
+  </a>
 
 ### Relational Database diagram
 ![worldcup diagram](https://user-images.githubusercontent.com/88495091/209214872-dd4c465a-c8db-48b6-87fd-92f73b932ebc.PNG)
@@ -29,11 +29,5 @@ Took these constraints into consideration when creating the Bash script to inser
 -Utilized SQL to query the database and obtain useful values.
 Took these constraints into consideration when creating the Bash script to insert data
 
-
-
-Steps taken:
-- Created a database called worldcup and appropriate tables (called "teams" and "games") to visualise the data from games.csv, taking in account any primary keys and foreign keys required to relate the tables.
-- Created a Bash script that reads the csv data and uses SQL query commands to insert the data automatically into the tables previously created.
-- Utilized SQL to query the database and obtain useful values.
 
 
