@@ -11,8 +11,11 @@ Create a Bash script that enters information from World Cup games.csv file into 
 Created the database, 'worldcup', and the appropriate tables ('teams' and 'games') on PostgreSQL to visualise the data from games.csv.
 Added appropriate constraints (primary keys and foreign keys) required to relate the tables.
 
-Table 'games' tracks all matches and shows scores made by winner and oponnent teams (using team_id as identifier for both).
-Table 'teams' lists all teams that played, whether they were the winner team or the opponent team.
+Tables
+_____________________________________________________________________________________________________________________
+|games| tracks all matches and shows scores made by winner and oponnent teams (using team_id as identifier for both).|
+|teams| lists all teams that played, whether they were the winner team or the opponent team.|
+----------------------------------------------------------------------------------------------------------------------
 
 View: add link
 
